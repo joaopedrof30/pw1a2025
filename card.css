@@ -3,6 +3,9 @@
     width: 268px;
     height: 474px;
     background-color: #ffffff;
+    border-radius: 35px;
+    border-width: 5px;
+    border-color: darkgray
 }
 .estrela{
     justify-content: end;
@@ -82,5 +85,19 @@ body{
     color: dimgray;
 
 
+}
+
+.comprar{
+    margin-top: 20px;
+    background-color: orangered;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+
+    
 }
 
