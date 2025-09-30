@@ -26,10 +26,7 @@
     width: 100%;;
 
 }
-.centralizar{
-    display: flex;
-    justify-content: center;
-}
+
 body{
     justify-content: center;
     display: flex;
@@ -40,4 +37,50 @@ body{
     padding-left: 5px;
     color: #424040;
     font-family: sans-serif;
+
 }
+
+.card-desconto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: dimgrey;
+    margin-top: 5px;
+}
+.card-price{
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.desconto{
+    font-size: 13px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    margin-left: 15px;
+
+
+
+}
+
+.tachado{
+    text-decoration: line-through;
+}
+
+
+.card-parcelamento{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida 
+    Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: dimgray;
+
+
+}
+
