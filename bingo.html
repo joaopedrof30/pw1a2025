@@ -14,9 +14,7 @@
             height: 100%;
             background-color: rgb(255, 255, 255);
             font-family: Arial, Helvetica, sans-serif ;
-            display: flex;
-            justify-content:center;
-            align-items: center;
+           
             
         }
         td{
@@ -109,5 +107,54 @@
         </thead>
     </table>
     </div>
+    <script>
+
+        var B = PreencherLista (1,15)
+        var I = PreencherLista (16,30)
+        var N = PreencherLista (31,45)
+        var G = PreencherLista (46,60)
+        var O = PreencherLista (61,75)
+        var SORTEIO = PreencherLista(1,75)
+
+        function PreencherLista(inicial,final){
+
+            var listaRetorno = []
+            for( var i = inicial; i<= final; i++){
+                listaRetorno.push(i)
+            }
+            return listaRetorno
+        }
+        function ParOuImpar (numero){
+            if (numero % 2 == 0 ){
+                return "par"
+            }else{
+                return "impar"
+            }
+        }
+        
+        function ExibirLista (lista){
+            return document.write ("<h1>" + lista + "</h1>")
+
+        }
+
+        function mostrarListadetalhada(lista){
+            for (var i = 0; i < lista.lenght; i++)
+        {
+            return document.write("<h1> " + lista[i] + "</h1>")
+        }
+        }
+
+        ExibirLista (B)
+        ExibirLista (I)
+        ExibirLista (N) 
+        ExibirLista (G)
+        ExibirLista (O) 
+        ExibirLista(SORTEIO)
+        
+        
+
+
+
+    </script>
 </body>
 </html>
