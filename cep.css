@@ -1,0 +1,30 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px 15px;
+    
+}
+
+label{
+    display: block;
+}
+
+input{
+    display: block;
+}
+
+.erro{
+    color: red:
+    
+}
